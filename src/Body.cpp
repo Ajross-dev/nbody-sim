@@ -51,3 +51,7 @@ void Body::applyGravity(const Body& other) {
     // Combine gravitational effects from multiple bodies
     acceleration = acceleration + gravityAcceleration;
 }
+
+void Body::resetAcceleration() {
+    acceleration = Vector2D(0, 0);
+}
