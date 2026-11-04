@@ -26,7 +26,7 @@ double Vector2D::getMagnitude() const {
     return std::sqrt(((x*x)+(y*y)));
 }
 
-// Return a unit vector pointing in the same direction.
+// Return a unit vector pointing in the same direction
 Vector2D Vector2D::normalize() const {
     double length = getMagnitude();
 
